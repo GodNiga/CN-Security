@@ -1,0 +1,299 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+  }
+  
+  
+  .contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  header {
+    background:linear-gradient(180deg, #000 25%, #0752fe 100%);
+    height: 550px;
+    color: #fff;
+    height: 650px;
+  }
+  
+  .menu {
+      background: #fff;
+      padding: 9px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      box-shadow: 1px 1px 8px #ccc;
+      z-index: 1;
+  }
+  
+  .menu .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  header .contenedor-inicio {
+    display: flex;
+    justify-content: center;
+    margin: 9vh 0;
+  }
+  
+  header .titular, header .imagen {
+    width: 40%;
+    margin-top: 70px;
+  }
+  
+  header h1 {
+    font-family: 'Rubik';
+    font-size: 52px;
+    text-shadow: 1px 2px 50px #0752fe;
+  }
+  
+  header p {
+    line-height: 30px;
+  }
+  
+  header .imagen img {
+    width: 100%;
+  }
+  
+  .boton {
+    border: 1px solid #0752fe;
+    color:#fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 2px 0 0 #0752fe;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  /*Sección Main*/
+ .contenedor-main {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+  }
+  .contenedor-main img{
+      width: 50px;
+      height:50px;  
+  }
+  .contenedor-main span{
+    margin: 0 60px 0 0;
+    font-weight: bold;
+  }
+
+  /* SECCIÓN SERVICIOS*/
+
+#servicios{
+  padding-top:35px ;
+}
+#servicios .contenedor{
+  display: flex;
+  justify-content: space-around;
+
+}
+#servicios .titular{
+  width:49%;
+}
+#servicios .servicio{
+  width: 25%;
+  background: #fff;
+  box-shadow:0 90px 160px 0 rgba(0,0,0,0.1);
+  border-radius: 24px;
+  padding: 20px 30px;
+}
+#servicios h2 , #caracteristicas h2 , #capacitaciones h2{
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size:14px;
+  color:#ff8f00;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#servicios h3, #caracteristicas h3 , #capacitaciones h3{
+  font-weight:500;
+  font-size: 38px;
+  margin: 0;
+}
+#servicios .boton{
+  background:#2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#servicios h4{
+  font-size: 23;
+  font-family: 'Rubik';
+  font-weight: normal;
+}
+#servicios p{
+  font-size: 15px;
+  color: #787878;
+  line-height: 32px;
+}
+#servicios a{
+  color:#2970fa;
+  text-decoration: none;
+  font-family: 'Rubik';
+  letter-spacing:1px;
+  font-size: 13px;
+}
+.contenedor-servicios-2{
+  margin-top: 60px;
+}
+
+.contenedor-servicios-2 #dos{
+  position: relative;
+  top:-250px;
+
+}
+#servicios #uno{
+  margin-left: 152px;
+}
+
+/*SECCIÓN CARACTERISTICAS*/
+#caracteristicas{
+  padding-top: 90px;
+}
+
+#caracteristicas p{
+  color:#666;
+  line-height: 30px;
+}
+#caracteristicas .contenedor{
+  display: flex;
+  justify-content: center;
+}
+#caracteristicas .titular{
+  width: 40%;
+  margin-right: 76px;
+}
+#caracteristicas .imagen{
+  width: 49%;
+}
+#caracterisitcas img{
+  width: 100%;
+}
+
+/*SECCION CAPCACITACIONES*/
+#capacitaciones{
+ margin-top:90px ;
+}
+#capacitaciones h2,#capacitaciones h3{
+  text-align: center;
+  margin: 0;
+}
+#capacitaciones h3{
+  font-weight:bold;
+}
+.capacitaciones-precios{
+  display: flex;
+  justify-content: space-around;
+}
+#capacitaciones .tabla{
+  background:#fff;
+  border-radius:24px;
+  box-shadow: 0 90px 160px 0 rgba(0,0,0,0.1);
+  padding:20px 59px;
+}
+#capacitaciones ul{
+  padding:0;
+}
+#capacitaciones .tabla li:nth-child(1){
+  font-family:'Rubik';
+  color:#ff8f00;
+  margin-bottom: 20px;
+  font-size:17px;
+  font-weight: bold;
+  margin-left: -21;
+  list-style: none;
+}
+#capacitaciones .tabla .signo{
+  position: absolute;
+  color:#999;
+  font-size: 17px;
+}
+#capacitaciones .tabla .precio{
+  font-family:'Rubik';
+  font-weight: bold;
+  font-size: 49px;
+  margin-left: 14px;
+}
+#capacitaciones .tabla .duracion{
+  color:#999
+}
+#capacitaciones .tabla li:nth-child(2){
+  list-style: none;
+  margin-bottom: 40px;
+  margin-left: -21;
+}
+#capacitaciones .item{
+  color:#ff8f00;
+  margin-bottom: 26px;
+}
+#capacitaciones #dos .item{
+  color:#2ACF8D;
+}
+#capacitaciones #tres .item{
+  color:#0752fe;
+}
+#capacitaciones .item span{
+  color:#666;
+}
+#capacitaciones #uno a{
+  background: #ff8f00;
+  box-shadow: none;
+  border:none;
+}
+#capacitaciones #dos a{
+  background: #2ACF8D;
+  box-shadow: none;
+  border:none;
+}
+#capacitaciones #tres a{
+  background: #0752fe;
+  box-shadow: none;
+  border:none;
+}
+#capacitaciones #dos li:nth-child(1){
+  color: #2ACF8D;
+}
+#capacitaciones #tres li:nth-child(1){
+  color: #0752fe;
+}
+#capacitaciones .tabla{
+  position: relative;
+}
+#capacitaciones hr{
+  position: absolute;
+  top:150px;
+  left:0;
+  width: 100%;
+  border-color: #2423230d;
+}
+
+  
